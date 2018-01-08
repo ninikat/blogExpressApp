@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Ranga|Ubuntu" rel="stylesheet">
+      <title>Blog </title>
+   </head>
+   <body>
+      <div class="container">
+         <p class="mb-4 blogTitle"> Cranberry blog </p>
+         <h4>Latest Posts</h4>
+         <ul id="postList">
+         </ul>
+      </div>
+      <br>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-3">
+               <h4>Create new post </h4>
+               <label>Enter post title:</label>
+               <input type="text" id="titleTextBox"/><br><br>
+               <label> What are your thoughts?</label><br>
+               <input type="text" class="blogPostBox" id="descriptionTextBox"/><br><br>
+               <label> Enter photo url: </label><br>
+               <input type="text" id="photoURLBox"/><br><br>
+               <label> Today's Date </label><br>
+               <input type="text" id="dateTextBox"/><br><br>
+               <button id="btnPost"> Post </button>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="app.js"></script>
+</html>
